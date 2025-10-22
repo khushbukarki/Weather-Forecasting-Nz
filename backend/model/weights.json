@@ -1,0 +1,21 @@
+{
+  "mu": {
+    "temp": 14.0,
+    "humidity": 78.0,
+    "wind": 15.0,
+    "pressure": 1014.0
+  },
+  "sigma": {
+    "temp": 6.0,
+    "humidity": 12.0,
+    "wind": 8.0,
+    "pressure": 8.0
+  },
+  "coef": [
+    -0.9,
+    1.6,
+    0.4,
+    -0.3
+  ],
+  "bias": -0.15
+}
