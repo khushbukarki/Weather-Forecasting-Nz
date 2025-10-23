@@ -56,3 +56,32 @@
 
 .photo-enter { animation: photo 800ms ease both; }
 @keyframes photo { from{opacity:0; transform: scale(1.03)} to{opacity:1; transform: scale(1)} }
+
+/* Fade-in animation for images */
+.fade-in {
+  opacity: 0;
+  transform: scale(1.05);
+  transition: opacity 1s ease, transform 1.5s ease;
+}
+
+.fade-in.loaded {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Optional soft dark overlay on city cards */
+.city-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.city-image-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.45), rgba(0,0,0,0.05));
+}
+       
+
+       
