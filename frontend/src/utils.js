@@ -1,50 +1,63 @@
 // src/utils.js
 export const B = import.meta.env.BASE_URL || "/";
 
+// All photos come from the internet (Unsplash) — no local files needed.
 export const CITIES = [
   {
     name: "Auckland",
     lat: -36.8485,
     lon: 174.7633,
-    photo: `${B}images/auckland.jpg`,
-    thumb: `${B}images/auckland.jpg`,
+    photo:
+      "https://images.unsplash.com/photo-1502786129293-79981df4e689?auto=format&fit=crop&w=1600&q=80",
+    thumb:
+      "https://images.unsplash.com/photo-1502786129293-79981df4e689?auto=format&fit=crop&w=80&q=40",
   },
   {
     name: "Wellington",
     lat: -41.2866,
     lon: 174.7756,
-    photo: `${B}images/wellington.jpg`,
-    thumb: `${B}images/wellington.jpg`,
+    photo:
+      "https://images.unsplash.com/photo-1557401623-1fb38b9b39e3?auto=format&fit=crop&w=1600&q=80",
+    thumb:
+      "https://images.unsplash.com/photo-1557401623-1fb38b9b39e3?auto=format&fit=crop&w=80&q=40",
   },
   {
     name: "Christchurch",
     lat: -43.532,
     lon: 172.6306,
-    photo: `${B}images/christchurch.jpg`,
-    thumb: `${B}images/christchurch.jpg`,
+    photo:
+      "https://images.unsplash.com/photo-1575550959106-5c5b1f7480c4?auto=format&fit=crop&w=1600&q=80",
+    thumb:
+      "https://images.unsplash.com/photo-1575550959106-5c5b1f7480c4?auto=format&fit=crop&w=80&q=40",
   },
   {
     name: "Dunedin",
     lat: -45.8788,
     lon: 170.5028,
-    photo: `${B}images/dunedin.jpg`,
-    thumb: `${B}images/dunedin.jpg`,
+    photo:
+      "https://images.unsplash.com/photo-1606289939866-41e95bafc0b1?auto=format&fit=crop&w=1600&q=80",
+    thumb:
+      "https://images.unsplash.com/photo-1606289939866-41e95bafc0b1?auto=format&fit=crop&w=80&q=40",
   },
   {
     name: "Hamilton",
     lat: -37.787,
     lon: 175.2793,
-    photo: `${B}images/hamilton.jpg`,
-    thumb: `${B}images/hamilton.jpg`,
+    photo:
+      "https://images.unsplash.com/photo-1581818433441-248b3cccbdbd?auto=format&fit=crop&w=1600&q=80",
+    thumb:
+      "https://images.unsplash.com/photo-1581818433441-248b3cccbdbd?auto=format&fit=crop&w=80&q=40",
   },
   {
     name: "Tauranga",
     lat: -37.686,
     lon: 176.167,
-    photo: `${B}images/tauranga.jpg`,
-    thumb: `${B}images/tauranga.jpg`,
+    photo:
+      "https://images.unsplash.com/photo-1623790165532-1f3197ddcb24?auto=format&fit=crop&w=1600&q=80",
+    thumb:
+      "https://images.unsplash.com/photo-1623790165532-1f3197ddcb24?auto=format&fit=crop&w=80&q=40",
   },
 ];
 
-// ✅ Named export for backend URL (used in App.jsx)
+// Keep apiBase for your backend URL (Render)
 export const apiBase = () => import.meta.env.VITE_BACKEND_URL || "";
