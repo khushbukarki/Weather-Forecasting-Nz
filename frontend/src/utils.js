@@ -8,9 +8,9 @@ export const CITIES = [
     lat: -36.8485,
     lon: 174.7633,
     photo:
-      "https://images.unsplash.com/photo-1502786129293-79981df4e689?auto=format&fit=crop&w=1600&q=80",
+      "https://unsplash.com/photos/city-skyline-across-body-of-water-during-daytime-CSCoasDuU2U?auto=format&fit=crop&w=1600&q=80",
     thumb:
-      "https://images.unsplash.com/photo-1502786129293-79981df4e689?auto=format&fit=crop&w=80&q=40",
+      "https://unsplash.com/photos/city-skyline-across-body-of-water-during-daytime-CSCoasDuU2U?auto=format&fit=crop&w=80&q=40",
   },
   {
     name: "Wellington",
