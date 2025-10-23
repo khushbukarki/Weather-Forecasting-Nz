@@ -8,9 +8,9 @@ export const CITIES = [
     lat: -36.8485,
     lon: 174.7633,
     photo:
-      "https://unsplash.com/photos/city-skyline-across-body-of-water-during-daytime-CSCoasDuU2U?auto=format&fit=crop&w=1600&q=80",
+      "https://www.istockphoto.com/photo/auckland-on-sunset-gm1288497138-384434070?utm_source=unsplash&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_content=https%3A%2F%2Funsplash.com%2Fphotos%2Fa-view-of-a-city-and-a-body-of-water-v9FIx0J-KAA&utm_term=city%3A%3Alayout-below-fold-units-2%3Acontrol",
     thumb:
-      "https://unsplash.com/photos/city-skyline-across-body-of-water-during-daytime-CSCoasDuU2U?auto=format&fit=crop&w=80&q=40",
+      "https://www.istockphoto.com/photo/auckland-on-sunset-gm1288497138-384434070?utm_source=unsplash&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_content=https%3A%2F%2Funsplash.com%2Fphotos%2Fa-view-of-a-city-and-a-body-of-water-v9FIx0J-KAA&utm_term=city%3A%3Alayout-below-fold-units-2%3Acontrol",
   },
   {
     name: "Wellington",
