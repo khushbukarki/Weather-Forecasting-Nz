@@ -82,7 +82,7 @@ export default function App() {
         <div className="flex items-center gap-3">
           <div className="h-10 w-10 rounded-xl bg-sky-400/20 grid place-items-center border border-sky-400/30">🌤️</div>
           <div>
-            <h1 className="text-2xl md:text-3xl font-semibold">Weather Forecasting — <span className="text-sky-400">Interactive</span></h1>
+            <h1 className="text-2xl md:text-3xl font-semibold">Weather Forecasting Nz </h1>
             <p className="text-slate-400 text-sm">GitHub Pages frontend • FastAPI backend (Render)</p>
           </div>
         </div>
@@ -170,7 +170,7 @@ export default function App() {
           {/* Right column: Ring + quick list */}
           <aside className="space-y-6">
             <div className="card text-center">
-              <h4 className="text-lg font-semibold">ML: Rain Probability</h4>
+              <h4 className="text-lg font-semibold"> Rain Probability</h4>
               <p className="text-slate-400 text-sm">Estimated chance of rain over ~24h</p>
               <div className="mt-4 grid place-items-center">
                 <div className="float"><Ring p={data?.ml_prob_now ?? 0} /></div>
